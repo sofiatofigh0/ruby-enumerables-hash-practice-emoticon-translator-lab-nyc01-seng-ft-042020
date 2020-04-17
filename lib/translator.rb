@@ -42,8 +42,8 @@ def get_japanese_emoticon(file_path, emoticon)
     english_version = new_hash[x][:english]
         if english_version == emoticon
           return japanese_version
+    end
    end
-  end
   return "Sorry,that emoticon was not found"
 end
 
