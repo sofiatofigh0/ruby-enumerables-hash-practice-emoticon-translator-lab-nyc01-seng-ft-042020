@@ -30,6 +30,7 @@ def get_english_meaning(file_path, emoticon)
      return x
     end
   end
+  return "Sorry, that emoticon was not found"
 end
 
 
